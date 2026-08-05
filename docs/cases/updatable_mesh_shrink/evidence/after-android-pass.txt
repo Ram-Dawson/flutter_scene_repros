@@ -1,0 +1,5 @@
+Engine: Ram-Dawson/flutter_scene a172305
+Flutter: 3.47.0-1.0.pre-223
+Device: Redmi 22127RK46C, Android 16
+Command: flutter drive --target=integration_test/updatable_mesh_shrink_test.dart
+Result: updatable mesh survives shrinking and regrowing - All tests passed.

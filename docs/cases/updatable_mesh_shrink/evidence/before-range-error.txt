@@ -1,0 +1,9 @@
+Baseline: flutter_scene upstream/master at 7ec6e96
+Scenario: MeshGeometry.applyMeshData with 64 -> 1 -> 64 array cubes
+
+RangeError (end): Invalid value: Not in inclusive range 0..4032: 4416
+  ByteData.sublistView
+  _RingBufferStream.writeRange
+  MeshGeometry.applyMeshData
+
+The stale range from a larger mesh exceeded the shorter current vertex array.

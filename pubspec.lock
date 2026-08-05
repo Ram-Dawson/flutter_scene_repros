@@ -140,8 +140,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/flutter_scene"
-      ref: "7ec6e96cb4b755dc244656a66e203b75622aceae"
-      resolved-ref: "7ec6e96cb4b755dc244656a66e203b75622aceae"
+      ref: a172305b3e64b974bcb6bb7afacd453d4147986f
+      resolved-ref: a172305b3e64b974bcb6bb7afacd453d4147986f
       url: "https://github.com/Ram-Dawson/flutter_scene.git"
     source: git
     version: "0.21.0"
@@ -300,8 +300,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/scene"
-      ref: "7ec6e96cb4b755dc244656a66e203b75622aceae"
-      resolved-ref: "7ec6e96cb4b755dc244656a66e203b75622aceae"
+      ref: a172305b3e64b974bcb6bb7afacd453d4147986f
+      resolved-ref: a172305b3e64b974bcb6bb7afacd453d4147986f
       url: "https://github.com/Ram-Dawson/flutter_scene.git"
     source: git
     version: "0.1.0"

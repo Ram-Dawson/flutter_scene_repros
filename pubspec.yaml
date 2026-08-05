@@ -33,7 +33,7 @@ dependencies:
   flutter_scene:
     git:
       url: https://github.com/Ram-Dawson/flutter_scene.git
-      ref: 7ec6e96cb4b755dc244656a66e203b75622aceae
+      ref: a172305b3e64b974bcb6bb7afacd453d4147986f
       path: packages/flutter_scene
   vector_math: ^2.1.4
 
@@ -48,7 +48,7 @@ dependency_overrides:
   scene:
     git:
       url: https://github.com/Ram-Dawson/flutter_scene.git
-      ref: 7ec6e96cb4b755dc244656a66e203b75622aceae
+      ref: a172305b3e64b974bcb6bb7afacd453d4147986f
       path: packages/scene
 
 # For information on the generic Dart part of this file, see the

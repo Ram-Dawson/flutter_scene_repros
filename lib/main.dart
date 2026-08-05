@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'cases/rapier_snapshot_membership/rapier_snapshot_membership_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -33,10 +35,18 @@ class ReproCatalogPage extends StatelessWidget {
       appBar: AppBar(title: const Text('Flutter Scene Repros')),
       body: ListView(
         padding: const EdgeInsets.symmetric(vertical: 8),
-        children: const [
+        children: [
           ListTile(
-            title: Text('No case selected'),
-            subtitle: Text('Check out a case/<id> branch or repro/<id>-fixed tag.'),
+            title: const Text('Rapier Snapshot Membership'),
+            subtitle: const Text('Manual state check'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute<void>(
+                  builder: (context) => const RapierSnapshotMembershipPage(),
+                ),
+              );
+            },
           ),
         ],
       ),

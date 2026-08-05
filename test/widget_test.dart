@@ -10,12 +10,13 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_scene_repros/main.dart';
 
 void main() {
-  testWidgets('shows the catalog shell without a selected case', (
+  testWidgets('lists the verified updatable mesh regression case', (
     WidgetTester tester,
   ) async {
     await tester.pumpWidget(const MyApp());
 
     expect(find.text('Flutter Scene Repros'), findsOneWidget);
-    expect(find.text('No case selected'), findsOneWidget);
+    expect(find.text('Updatable Mesh Shrink'), findsOneWidget);
+    expect(find.text('Verified on Android'), findsOneWidget);
   });
 }

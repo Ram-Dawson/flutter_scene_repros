@@ -30,11 +30,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_scene:
+    git:
+      url: https://github.com/Ram-Dawson/flutter_scene.git
+      ref: 7ec6e96cb4b755dc244656a66e203b75622aceae
+      path: packages/flutter_scene
+  vector_math: ^2.1.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  integration_test:
+    sdk: flutter
   flutter_lints: ^6.0.0
+
+dependency_overrides:
+  scene:
+    git:
+      url: https://github.com/Ram-Dawson/flutter_scene.git
+      ref: 7ec6e96cb4b755dc244656a66e203b75622aceae
+      path: packages/scene
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -33,7 +33,7 @@ dependencies:
   flutter_scene_rapier:
     git:
       url: https://github.com/Ram-Dawson/flutter_scene.git
-      ref: 2d4decc72e8ee965dbc0995ea678aae9f0405203
+      ref: 3a91964e31d4fdf5cbad3564acce2852e0b24aa4
       path: packages/flutter_scene_rapier
   scene: ^0.1.1
   vector_math: ^2.1.4
@@ -49,7 +49,7 @@ dependency_overrides:
   scene:
     git:
       url: https://github.com/Ram-Dawson/flutter_scene.git
-      ref: 2d4decc72e8ee965dbc0995ea678aae9f0405203
+      ref: 3a91964e31d4fdf5cbad3564acce2852e0b24aa4
       path: packages/scene
 
 # For information on the generic Dart part of this file, see the

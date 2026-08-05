@@ -103,8 +103,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/flutter_scene_rapier"
-      ref: "2d4decc72e8ee965dbc0995ea678aae9f0405203"
-      resolved-ref: "2d4decc72e8ee965dbc0995ea678aae9f0405203"
+      ref: "3a91964e31d4fdf5cbad3564acce2852e0b24aa4"
+      resolved-ref: "3a91964e31d4fdf5cbad3564acce2852e0b24aa4"
       url: "https://github.com/Ram-Dawson/flutter_scene.git"
     source: git
     version: "0.4.0"
@@ -239,8 +239,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/scene"
-      ref: "2d4decc72e8ee965dbc0995ea678aae9f0405203"
-      resolved-ref: "2d4decc72e8ee965dbc0995ea678aae9f0405203"
+      ref: "3a91964e31d4fdf5cbad3564acce2852e0b24aa4"
+      resolved-ref: "3a91964e31d4fdf5cbad3564acce2852e0b24aa4"
       url: "https://github.com/Ram-Dawson/flutter_scene.git"
     source: git
     version: "0.1.1"

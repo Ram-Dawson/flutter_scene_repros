@@ -40,8 +40,7 @@ fvm flutter test test/rapier_snapshot_membership_test.dart
 | `2d4decc` | `restore()` accepts a changed body set, allowing Dart and native membership to diverge. |
 | `3a91964` | `restore()` rejects changed membership before native state is modified. |
 
-This baseline tag is pinned to `2d4decc`, the parent of
+The repro is pinned to `3a91964` from
 [`fix/rapier-snapshot-membership`](https://github.com/Ram-Dawson/flutter_scene/tree/fix/rapier-snapshot-membership).
-The focused regression is expected to fail because it asserts the fixed
-contract. It is a state-contract case: no screenshot is required to establish
-the behavioral result.
+It is a state-contract case: no screenshot is required to establish the
+behavioral result.

@@ -44,3 +44,11 @@ The repro is pinned to `3a91964` from
 [`fix/rapier-snapshot-membership`](https://github.com/Ram-Dawson/flutter_scene/tree/fix/rapier-snapshot-membership).
 It is a state-contract case: no screenshot is required to establish the
 behavioral result.
+
+## Visual Comparison (Supplementary)
+
+These Android screenshots show the same `Snapshot world -> Add body -> Restore snapshot` interaction. They supplement the focused test and `restore()` return value; the displayed native-member rows explain the expected state and are not an independent native-world inspection API.
+
+| Baseline `2d4decc`: restore accepted | Fixed `3a91964`: restore rejected |
+| --- | --- |
+| <img src="evidence/android-before-restore-accepted.jpg" width="320" alt="Baseline accepts restore after body membership changes, leaving snapshot membership A and Dart registry A, B"> | <img src="evidence/android-fixed-restore-rejected.jpg" width="320" alt="Fixed revision rejects restore after body membership changes and keeps native and Dart membership aligned"> |
